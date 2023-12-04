@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "nodemon -L ./src/index.ts",
+    "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
+    "start": "node -r esbuild-register ./src/index.ts",
+    "test": "jest --detectOpenHandles"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
