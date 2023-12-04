@@ -5,7 +5,9 @@ import cors from "cors";
 import morgan from "morgan";
 import { AppError } from "./utils/appError";
 import { errorHandler } from "./utils/errorHandler";
+import { Protect } from "./middleware/auth.middleware";
 config();
+
 
 const app = express();
 
@@ -22,5 +24,7 @@ app.all("*", (req: Request, _res: Response, next: NextFunction) => {
 });
 
 app.use(errorHandler);
+
+export {Protect}
 
 
