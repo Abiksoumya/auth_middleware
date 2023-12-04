@@ -4,7 +4,7 @@
   "description": "",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc --module esnext --target es2020 --outDir ./src/**/*.ts",
+    "build": "tsc --module esnext --target es2020 --outDir ./src/index.ts",
     "clean": "rm -rf dist",
     "dev": "nodemon -L ./src/index.ts",
     "lint": "tsc --noEmit && eslint \"src/**/*.ts*\"",
