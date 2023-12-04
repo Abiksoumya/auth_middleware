@@ -1,6 +1,6 @@
 {
   "name": "@quotus_packages/auth_middleware",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "",
   "main": "build/index.js",
   "scripts": {
@@ -11,7 +11,6 @@
     "start": "node -r esbuild-register ./src/index.ts",
     "test": "jest --detectOpenHandles"
   },
- 
   "keywords": [],
   "author": "",
   "license": "ISC",
