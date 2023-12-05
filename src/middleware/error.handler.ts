@@ -1,6 +1,6 @@
 import { ErrorRequestHandler, NextFunction, Request, Response } from "express";
 
-import { AppError } from "./appError";
+import { AppError } from "../utils/appError";
 import { CastError } from "mongoose";
 import { WriteError } from "mongodb";
 
