@@ -1,5 +1,5 @@
 {
-  "name": "@tripswift/common",
+  "name": "@quotus_packages/auth_middleware",
   "version": "1.0.47",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
